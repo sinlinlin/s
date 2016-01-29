@@ -95,10 +95,10 @@ http://scal.io -- check us out.
 								var a = now.getDay();
 								var b = now.getHours();
 								var c 
-								if(a==0|a==6){c="睡覺中",document.write("<font color=#00FF00>")}
-								else{if(b==23){c="上班中",document.write("<font color=#888888>")}
-								     else if(b>=17){c="好市多",document.write("<font color=#FFFF00>")}
-									 else if(b>=8){c="上班中",document.write("<font color=#888888>")}
+								if(a==0|a==6){c="睡覺中",document.write("<font color=#888888>")}
+								else{if(b==23){c="上班中",document.write("<font color=#00DD00>")}
+								     else if(21>=b>=17){c="好市多",document.write("<font color=#FFFF00>")}
+									 else if(b>=8){c="上班中",document.write("<font color=#00DD00>")}
 									 else{c="睡覺中",document.write("<font color=#888888>")}
 									}
 								document.write(c)
@@ -169,10 +169,12 @@ http://scal.io -- check us out.
 								var c 
 								     if(a==0|a==6){c="放假中",document.write("<font color=#FF44AA>")}
 								else if(a==5){if(b>=21){c="睡覺中",document.write("<font color=#FFFF00>")}
-											  else if(b==9){c="發呆中",document.write("<font color=#00FFFF>")}
-											  else if(b==13){c="睡覺中",document.write("<font color=#FFFF00>")}
+											  else if(b>=9){c="發呆中",document.write("<font color=#00FFFF>")}
+											  else if(12>=b>=11){c="餓....",document.write("<font color=#00FFFF>")}
+											  else if(b==12){c="睡覺中",document.write("<font color=#FFFF00>")}
 											  else if(b==15){c="放空中",document.write("<font color=#AAAAAA>")}
 											  else if(b>=7){c="上班中",document.write("<font color=#00FF00>")}
+<<<<<<< HEAD
 											  else{c="上班中",document.write("<font color=#FFFF00>")}
 											 }
 								else if(a==4){if(b>=21){c="睡覺中",document.write("<font color=#FFFF00>")}
@@ -188,21 +190,48 @@ http://scal.io -- check us out.
 											  else if(b==9){c="上班中",document.write("<font color=#888888>")}
 											  else if(b=6){c="準備上班中",document.write("<font color=#00FF00>")}
 											  else{c="上班中",document.write("<font color=#FFFF00>")}
+=======
+											  else{c="想下班...sad...",document.write("<font color=#66FFFF>")}
+											 }
+								else if(a==4){if(b>=21){c="睡覺中",document.write("<font color=#FFFF00>")}
+											  else if(b==8){c="大便中",document.write("<font color=#888888>")}
+											  else if(13>=b>=9){c="上班中",document.write("<font color=#888888>")}
+											  else if(b==14){c="發呆中",document.write("<font color=#00FFFF>")}
+											  else if(b==15){c="放空中",document.write("<font color=#AAAAAA>")}
+											  else if(7>=b>=6){c="準備上班中",document.write("<font color=#00FF00>")}
+											  else{c="不要吵我...",document.write("<font color=#AA0000 >")}
+											 }
+								else if(a==3){if(b>=21){c="睡覺中",document.write("<font color=#FFFF00>")}
+											  else if(b==8){c="大便中",document.write("<font color=#888888>")}
+											  else if(b==9){c="還是在上班...",document.write("<font color=#888888>")}
+											  else if(b>=7){c="上班中",document.write("<font color=#00FF00>")}
+											  else{c="好想下班...",document.write("<font color=#66FFFF>")}
+>>>>>>> refs/remotes/origin/master
 											 }
 								else if(a==2){if(b>=21){c="睡覺中",document.write("<font color=#FFFF00>")}
 											  else if(b>=8){c="上班中",document.write("<font color=#888888>")}
 											  else if(b==13){c="放空中",document.write("<font color=#AAAAAA>")}
 											  else if(b==14){c="午荼中",document.write("<font color=#FFB3FF>")}
+<<<<<<< HEAD
 											  else if(b=7){c="準備上班中",document.write("<font color=#00FF00>")}
 											  else{c="上班中",document.write("<font color=#FFFF00>")}
+=======
+											  else if(8>=b>=6){c="準備上班中",document.write("<font color=#00FF00>")}
+											  else{c="always在上班 T T...",document.write("<font color=#888888>")}
+>>>>>>> refs/remotes/origin/master
 											 }
 								else{if(b>=21){c="睡覺中",document.write("<font color=#FFFF00>")}
 								     else if(b==8){c="大便中",document.write("<font color=#888888>")}
 									 else if(b==11){c="飢餓狀態中",document.write("<font color=#888888>")}
 									 else if(b==13){c="發呆中",document.write("<font color=#888888>")}
 									 else if(b==14){c="上班中",document.write("<font color=#888888>")}
+<<<<<<< HEAD
 									 else if(b=6){c="準備上班中",document.write("<font color=#00FF00>")}
 									 else{c="上班中",document.write("<font color=#FFFF00>")}
+=======
+									 else if(8>=b>=6){c="準備上班中",document.write("<font color=#00FF00>")}
+									 else{c="上班中",document.write("<font color=#888888>")}
+>>>>>>> refs/remotes/origin/master
 									}
 								document.write(c)
 								document.write("</font>");
